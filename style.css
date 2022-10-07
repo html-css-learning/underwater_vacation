@@ -32,6 +32,10 @@ body {
     font-family: 'roboto';
 }
 
+img {
+    max-width: 100%;
+}
+
 :root {
     --primary-color: #109DEA;
     --secondary-color: #04234E;
