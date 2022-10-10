@@ -30,6 +30,7 @@
 
 body {
     font-family: 'roboto';
+    color: white;
 }
 
 img {
@@ -44,3 +45,37 @@ img {
 }
 
 /* ----------- CODE BELOW -----------  */
+
+header {
+    background-color: #109DEA;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .site-title {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    transition-duration: 0.3s;
+}
+
+header nav a:hover {
+    background-color: #EE88E4;
+}
+
