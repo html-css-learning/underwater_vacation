@@ -80,9 +80,6 @@ header nav a:hover {
     background-color: #EE88E4;
 }
 
-
-
-
 /* ----------- Version Mobile -----------  */
 
 @media screen and (max-width: 576px) {
@@ -92,5 +89,17 @@ header nav a:hover {
 
     header nav {
         display: none;
+    }
+}
+
+/* ----------- Version Tablette -----------  */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    header {
+        background-color: #EE88E4;
+    }
+
+    header .site-title {
+        font-size: 1.2rem;
     }
 }
