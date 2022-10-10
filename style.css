@@ -80,6 +80,17 @@ header nav a:hover {
     background-color: #EE88E4;
 }
 
+
+/*
+BREAKPOINTS :
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+*/
+
 /* ----------- Version Mobile -----------  */
 
 @media screen and (max-width: 576px) {
